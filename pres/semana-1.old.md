@@ -412,7 +412,7 @@ Esta é capaz, portanto de realizar todas funções do servidor citadas acima (_
 
 %%%
 
-![grupo7](/images/grupo7.png)
+![grupo7](images/grupo7.png)
 
 ---
 
