@@ -8,8 +8,6 @@
 
 ## Grupo 0 | A
 
----
-
 Foram feitas definições gerais do trabalho.
 
 ---
@@ -67,11 +65,11 @@ Login
 
 ## Grupo 1 | B
 
----
-
 Foram criados aspectos da comunicação aplicação-servidor.
 
 ---
+
+## Grupo 1 |B
 
 ### Nikolas e Jonata
 
@@ -84,6 +82,8 @@ Foram criados aspectos da comunicação aplicação-servidor.
 Estudo de alternativas para envio de email
 
 ---
+
+## Grupo 1 | B
 
 ### Indra e Amanda
 
@@ -103,6 +103,8 @@ Estudo de alternativas para envio de email
 - Revisão e adaptação da estrutura comunicando com os gerentes
 
 ---
+
+## Grupo 1 | B
 
 ### Estrutura XML
 
@@ -136,11 +138,11 @@ Estudo de alternativas para envio de email
 
 ## Grupo 2 | C
 
----
-
 Foram adicionadas as funcionalidades de Manutenção de Disciplinas no servidor
 
 ---
+
+## Grupo 2 | C
 
 ## Servidor
 
@@ -153,6 +155,8 @@ Foram adicionadas as funcionalidades de Manutenção de Disciplinas no servidor
 
 ---
 
+## Grupo 2 | C
+
 ## Servidor
 
 Todas as requisições a API de disciplinas seguem um seguinte padrão de rotas que é:
@@ -162,6 +166,8 @@ Todas as requisições a API de disciplinas seguem um seguinte padrão de rotas 
 onde operação pode ser `consultar`, `consultarporid`, `deletar`, `alterar`, `inserir`
 
 ---
+
+## Grupo 2 | C
 
 ## Estrutura do XML
 
@@ -184,7 +190,7 @@ xml de erro:
 
 ```xml
 <erro>
-    <mensagem></mensagem>
+<mensagem></mensagem>
 </erro>
 ```
 
@@ -192,7 +198,7 @@ xml de sucesso:
 
 ```xml
 <sucesso>
-    <mensagem></mensagem>
+<mensagem></mensagem>
 </sucesso>
 ```
 
@@ -200,11 +206,11 @@ xml de sucesso:
 
 ## Grupo 3 | D
 
----
-
 Foram criadas funcionalidades para manutenção da tabela 'Etapas'
 
 ---
+
+## Grupo 3 | D
 
 ### Servidor
 
@@ -213,6 +219,8 @@ Criação de servlets para _inserção_, _alteração_, _exclusão_ e _consulta_
 Cada uma das funcionalidades pode ser acessada pelo endereço `http://localhost:8080/app/diario/etapas/{funcionalidade}`.
 
 ---
+
+## Grupo 3 | D
 
 ### Respostas em XML
 
@@ -244,8 +252,6 @@ onde status pode ser _erro_ ou _sucesso_.
 
 ## Grupo 4 | E
 
----
-
 ### Estudo e prática
 
 - Git/GitHub
@@ -262,6 +268,8 @@ onde status pode ser _erro_ ou _sucesso_.
 
 ---
 
+## Grupo 4 | E
+
 ### Sistema Biblioteca
 
 #### Back-End
@@ -270,6 +278,8 @@ onde status pode ser _erro_ ou _sucesso_.
 - Funcionalidade de Descarte (I)
 
 ---
+
+## Grupo 4 | E
 
 ### Sistema Diário
 
@@ -281,11 +291,11 @@ onde status pode ser _erro_ ou _sucesso_.
 
 ## Grupo 5 | F
 
----
-
 Na primeira semana nosso grupo focou na parte de manutenções (alunos e campi), desenvolvendo back-end e o front-end da parte Web.
 
 ---
+
+## Grupo 5 | F
 
 ### Servidor
 
@@ -294,11 +304,15 @@ Além disso já estamos avançados no desenvolvimento das mesmas para a **manute
 
 ---
 
+## Grupo 5 | F
+
 #### Como funciona
 
 Ao acessar, a partir do servidor, o caminho `/diario/{area}/{função}` , (onde _área_ seria campi ou alunos, e _função_ seria inserir, alterar ou deletar), é possível realizar essas funcionalidades, recebendo uma resposta XML que indica se a operação foi bem sucedida ou se ocorreu um erro, o qual também é indicado na reposta.
 
 ---
+
+## Grupo 5 | F
 
 ### Front-end
 
@@ -314,8 +328,6 @@ Criamos as páginas Web para manutenção de campi e alunos, seguido o layout e 
 
 ## Grupo 6 | G
 
----
-
 ### Estudo e prática
 
 - Git/GitHub
@@ -323,6 +335,8 @@ Criamos as páginas Web para manutenção de campi e alunos, seguido o layout e 
 - JavaFX
 
 ---
+
+## Grupo 6 | G
 
 ### Manutenção de departamentos
 
@@ -334,6 +348,8 @@ Criamos as páginas Web para manutenção de campi e alunos, seguido o layout e 
 - Remoção
 
 ---
+
+## Grupo 6 | G
 
 ### Manutenção de departamentos
 
@@ -349,6 +365,8 @@ Diagrama
 
 ---
 
+## Grupo 6 | G
+
 ### Manutenção de departamentos
 
 #### Front-end da aplicação web
@@ -359,11 +377,11 @@ Diagrama
 
 ## Grupo 7 | H
 
----
-
 Foram adicionados funcionalidades fundamentais para o prosseguimento do desenvolvimento do projeto.
 
 ---
+
+## Grupo 7 | H
 
 ### O servidor
 
@@ -373,6 +391,8 @@ Acessando, do endereço base do servidor, o caminho `/diario/cursos/{funcionalid
 
 ---
 
+## Grupo 7 | H
+
 #### Funcionalidades
 
 - Consultar cursos
@@ -381,6 +401,8 @@ Acessando, do endereço base do servidor, o caminho `/diario/cursos/{funcionalid
 - Atualizar cursos
 
 ---
+
+## Grupo 7 | H
 
 ### O front-end
 
@@ -396,8 +418,6 @@ Esta é capaz, portanto de realizar todas funções do servidor citadas acima (_
 
 ## Grupo 8 | I
 
----
-
 ### Front-end Web
 
 Desenvolvida uma tela para modificar a tabela das turmas.
@@ -409,11 +429,15 @@ A interface já está pronta, mas não faz comunicações com o banco de dados a
 
 ---
 
+## Grupo 8 | I
+
 ### Começo front-end Desktop
 
 **Impedimento**: falta da definição para estilização
 
 ---
+
+## Grupo 8 | I
 
 ### Back-end Web
 
