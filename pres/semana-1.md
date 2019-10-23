@@ -108,29 +108,74 @@ Estudo de alternativas para envio de email
 
 ```xml
 <root>
-	<info>
-		<erro>true/false</erro>
-		<mensagem></mensagem>
-		<causa></causa>
-	</info>
+    <info>
+        <erro>true/false</erro>
+        <mensagem></mensagem>
+        <causa></causa>
+    </info>
 ```
 
 %%%
 
 ```xml
-	<professores>
-		<professor>
-			<id></id>
-			<id-depto></id-depto>
-			<nome></nome>
-			<senha></senha>
-			<email></email>
-			<titulacao></tirulacao>
-		</professor>
-		<!-- ... -->
-	</professores>
+    <professores>
+        <professor>
+            <id></id>
+            <id-depto></id-depto>
+            <nome></nome>
+            <senha></senha>
+            <email></email>
+            <titulacao></tirulacao>
+        </professor>
+        <!-- ... -->
+    </professores>
 </root>
 ```
+
+---
+
+## Grupo 6 | G
+
+---
+
+### Estudo e prática
+
+- Git/GitHub
+- Requisições HTTP
+- JavaFX
+
+---
+
+### Manutenção de departamentos
+
+#### Servidor
+
+- Consulta
+- Inserção
+- Atualização
+- Remoção
+
+---
+
+### Manutenção de departamentos
+
+#### Servidor
+
+Padrão de projeto de software MVC (Model-View-Controller)
+
+%%%
+
+Diagrama
+
+![grupo 6](https://raw.githubusercontent.com/diegoeis/tableless-static-images/master/2015/02/laravel-introducao.jpg)
+
+---
+
+### Manutenção de departamentos
+
+#### Front-end da aplicação web
+
+- Página que exibe departamentos em uma tabela
 
 ---
 
@@ -309,51 +354,6 @@ Criamos as páginas Web para manutenção de campi e alunos, seguido o layout e 
 #### Exemplo
 
 ![grupo5](images/grupo5.png)
-
----
-
-## Grupo 6 | G
-
----
-
-### Estudo e prática
-
-- Git/GitHub
-- Requisições HTTP
-- JavaFX
-
----
-
-### Manutenção de departamentos
-
-#### Servidor
-
-- Consulta
-- Inserção
-- Atualização
-- Remoção
-
----
-
-### Manutenção de departamentos
-
-#### Servidor
-
-Padrão de projeto de software MVC (Model-View-Controller)
-
-%%%
-
-Diagrama
-
-![grupo 6](https://raw.githubusercontent.com/diegoeis/tableless-static-images/master/2015/02/laravel-introducao.jpg)
-
----
-
-### Manutenção de departamentos
-
-#### Front-end da aplicação web
-
-- Página que exibe departamentos em uma tabela
 
 ---
 
