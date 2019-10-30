@@ -191,7 +191,7 @@ Responsáveis pelo Front-end de Manutenção de Disciplinas
 
 %%%
 
-![📷](images/interface.png)
+![📷](images/Interface.png)
 
 ---
 
